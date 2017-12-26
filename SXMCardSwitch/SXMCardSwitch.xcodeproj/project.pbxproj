@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		639B43A51FF1E36400D7E8B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 639B43A41FF1E36400D7E8B2 /* AppDelegate.m */; };
+		639B43A81FF1E36400D7E8B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639B43A71FF1E36400D7E8B2 /* ViewController.m */; };
+		639B43AB1FF1E36400D7E8B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639B43A91FF1E36400D7E8B2 /* Main.storyboard */; };
+		639B43AD1FF1E36400D7E8B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639B43AC1FF1E36400D7E8B2 /* Assets.xcassets */; };
+		639B43B01FF1E36400D7E8B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639B43AE1FF1E36400D7E8B2 /* LaunchScreen.storyboard */; };
+		639B43B31FF1E36500D7E8B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 639B43B21FF1E36500D7E8B2 /* main.m */; };
+		639B43BC1FF1E89700D7E8B2 /* SXMCardSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 639B43BB1FF1E89700D7E8B2 /* SXMCardSwitchView.m */; };
+		639B43BF1FF1E8D200D7E8B2 /* SXMCardSwitchFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 639B43BE1FF1E8D200D7E8B2 /* SXMCardSwitchFlowLayout.m */; };
+		639B43C21FF1EABA00D7E8B2 /* SXMCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 639B43C11FF1EABA00D7E8B2 /* SXMCardCell.m */; };
+		639B43C51FF1EB3F00D7E8B2 /* SXMCardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 639B43C41FF1EB3F00D7E8B2 /* SXMCardItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		639B43A01FF1E36400D7E8B2 /* SXMCardSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SXMCardSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		639B43A31FF1E36400D7E8B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		639B43A41FF1E36400D7E8B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		639B43A61FF1E36400D7E8B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		639B43A71FF1E36400D7E8B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		639B43AA1FF1E36400D7E8B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		639B43AC1FF1E36400D7E8B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		639B43AF1FF1E36400D7E8B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		639B43B11FF1E36500D7E8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639B43B21FF1E36500D7E8B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		639B43BA1FF1E89700D7E8B2 /* SXMCardSwitchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMCardSwitchView.h; sourceTree = "<group>"; };
+		639B43BB1FF1E89700D7E8B2 /* SXMCardSwitchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMCardSwitchView.m; sourceTree = "<group>"; };
+		639B43BD1FF1E8D200D7E8B2 /* SXMCardSwitchFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMCardSwitchFlowLayout.h; sourceTree = "<group>"; };
+		639B43BE1FF1E8D200D7E8B2 /* SXMCardSwitchFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMCardSwitchFlowLayout.m; sourceTree = "<group>"; };
+		639B43C01FF1EABA00D7E8B2 /* SXMCardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMCardCell.h; sourceTree = "<group>"; };
+		639B43C11FF1EABA00D7E8B2 /* SXMCardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMCardCell.m; sourceTree = "<group>"; };
+		639B43C31FF1EB3F00D7E8B2 /* SXMCardItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXMCardItem.h; sourceTree = "<group>"; };
+		639B43C41FF1EB3F00D7E8B2 /* SXMCardItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMCardItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		639B439D1FF1E36400D7E8B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		639B43971FF1E36400D7E8B2 = {
+			isa = PBXGroup;
+			children = (
+				639B43A21FF1E36400D7E8B2 /* SXMCardSwitch */,
+				639B43A11FF1E36400D7E8B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		639B43A11FF1E36400D7E8B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				639B43A01FF1E36400D7E8B2 /* SXMCardSwitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		639B43A21FF1E36400D7E8B2 /* SXMCardSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				639B43B91FF1E6DB00D7E8B2 /* SXMCardSwitch */,
+				639B43A31FF1E36400D7E8B2 /* AppDelegate.h */,
+				639B43A41FF1E36400D7E8B2 /* AppDelegate.m */,
+				639B43A61FF1E36400D7E8B2 /* ViewController.h */,
+				639B43A71FF1E36400D7E8B2 /* ViewController.m */,
+				639B43A91FF1E36400D7E8B2 /* Main.storyboard */,
+				639B43AC1FF1E36400D7E8B2 /* Assets.xcassets */,
+				639B43AE1FF1E36400D7E8B2 /* LaunchScreen.storyboard */,
+				639B43B11FF1E36500D7E8B2 /* Info.plist */,
+				639B43B21FF1E36500D7E8B2 /* main.m */,
+			);
+			path = SXMCardSwitch;
+			sourceTree = "<group>";
+		};
+		639B43B91FF1E6DB00D7E8B2 /* SXMCardSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				639B43BA1FF1E89700D7E8B2 /* SXMCardSwitchView.h */,
+				639B43BB1FF1E89700D7E8B2 /* SXMCardSwitchView.m */,
+				639B43BD1FF1E8D200D7E8B2 /* SXMCardSwitchFlowLayout.h */,
+				639B43BE1FF1E8D200D7E8B2 /* SXMCardSwitchFlowLayout.m */,
+				639B43C01FF1EABA00D7E8B2 /* SXMCardCell.h */,
+				639B43C11FF1EABA00D7E8B2 /* SXMCardCell.m */,
+				639B43C31FF1EB3F00D7E8B2 /* SXMCardItem.h */,
+				639B43C41FF1EB3F00D7E8B2 /* SXMCardItem.m */,
+			);
+			path = SXMCardSwitch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		639B439F1FF1E36400D7E8B2 /* SXMCardSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639B43B61FF1E36500D7E8B2 /* Build configuration list for PBXNativeTarget "SXMCardSwitch" */;
+			buildPhases = (
+				639B439C1FF1E36400D7E8B2 /* Sources */,
+				639B439D1FF1E36400D7E8B2 /* Frameworks */,
+				639B439E1FF1E36400D7E8B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SXMCardSwitch;
+			productName = SXMCardSwitch;
+			productReference = 639B43A01FF1E36400D7E8B2 /* SXMCardSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		639B43981FF1E36400D7E8B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SXM;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = sxm;
+				TargetAttributes = {
+					639B439F1FF1E36400D7E8B2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 639B439B1FF1E36400D7E8B2 /* Build configuration list for PBXProject "SXMCardSwitch" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 639B43971FF1E36400D7E8B2;
+			productRefGroup = 639B43A11FF1E36400D7E8B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				639B439F1FF1E36400D7E8B2 /* SXMCardSwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		639B439E1FF1E36400D7E8B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639B43B01FF1E36400D7E8B2 /* LaunchScreen.storyboard in Resources */,
+				639B43AD1FF1E36400D7E8B2 /* Assets.xcassets in Resources */,
+				639B43AB1FF1E36400D7E8B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		639B439C1FF1E36400D7E8B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639B43C51FF1EB3F00D7E8B2 /* SXMCardItem.m in Sources */,
+				639B43A81FF1E36400D7E8B2 /* ViewController.m in Sources */,
+				639B43BC1FF1E89700D7E8B2 /* SXMCardSwitchView.m in Sources */,
+				639B43B31FF1E36500D7E8B2 /* main.m in Sources */,
+				639B43BF1FF1E8D200D7E8B2 /* SXMCardSwitchFlowLayout.m in Sources */,
+				639B43C21FF1EABA00D7E8B2 /* SXMCardCell.m in Sources */,
+				639B43A51FF1E36400D7E8B2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		639B43A91FF1E36400D7E8B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639B43AA1FF1E36400D7E8B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		639B43AE1FF1E36400D7E8B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639B43AF1FF1E36400D7E8B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		639B43B41FF1E36500D7E8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		639B43B51FF1E36500D7E8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		639B43B71FF1E36500D7E8B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SXMCardSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxm.sxm.SXMCardSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		639B43B81FF1E36500D7E8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SXMCardSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxm.sxm.SXMCardSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		639B439B1FF1E36400D7E8B2 /* Build configuration list for PBXProject "SXMCardSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639B43B41FF1E36500D7E8B2 /* Debug */,
+				639B43B51FF1E36500D7E8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639B43B61FF1E36500D7E8B2 /* Build configuration list for PBXNativeTarget "SXMCardSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639B43B71FF1E36500D7E8B2 /* Debug */,
+				639B43B81FF1E36500D7E8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 639B43981FF1E36400D7E8B2 /* Project object */;
+}
